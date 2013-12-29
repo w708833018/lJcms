@@ -1,0 +1,1 @@
+<?php	return array ( 'cn' => array ( 'id' => '1', 'name' => '中文', 'status' => '1', 'no_order' => '0', 'mark' => 'cn', 'flag' => '', 'link' => '', 'newwindows' => '0', 'template' => './Control/Longji/Tpl/Home/', 'weburl' => '', 'lang' => '', ), );?>
