@@ -1,0 +1,5 @@
+@charset "utf-8";
+/* CSS Document */
+em,i{font-style:normal;}
+em.error {overflow:hidden;zoom:1;background:url(unchecked.gif) no-repeat 4px;  padding-left: 19px;color:red;}
+em.success {overflow:hidden;zoom:1;background:url(checked.gif) no-repeat 4px;  padding-left: 19px;color:red;}

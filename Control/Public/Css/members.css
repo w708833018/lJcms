@@ -1,0 +1,94 @@
+@charset "utf-8";
+/* CSS Document */
+*{ margin:0px; padding:0px; font-size:12px; font-family: "Microsoft YaHei", "微软雅黑"; }
+div,ul,li,p,span,input,h1,h2,h3,img,a,id{ margin:0px; padding:0px;}
+ul,li{list-style-type:none;}
+li{ list-style:none;}
+img{border:0px;}
+.l{ float:left;}
+.r{ float:right;}
+.clear{ clear:both;}
+a{color:#000;text-decoration: none;}
+a:hover{ color:#be0000;text-decoration:none;}
+
+
+/*顶部*/
+.top{ margin:0 auto; padding:0 15px; width:950px; height:32px; background:url(../images/top_bg.png) no-repeat center; overflow:hidden; color:#fff; line-height:30px;}
+.top_l{text-align:left;}
+.top_r{ text-align:left; margin-right:20px;}
+input.top_s{ width:100px; line-height:12px;}
+.top_r span a{ color:#fff;}
+
+.main{margin:20px auto 0; width:950px; overflow:hidden;}
+
+/*内容页面*/
+.content{width:685px; margin:0 20px 0 0; overflow:hidden;}
+.content h2{ float:left; width:100%; font-size:14px; line-height:40px; color: #be0000;}
+.content h3{ float:left; padding-left:17px; font-size:14px; line-height:40px; color: #be0000;}
+.content form{ float:left;}
+
+/*帐号信息*/
+.contentm{width:683px; height:104px;  border:1px solid #ddd; background:url(../images/head_bg.png) repeat-x; overflow:hidden;}
+.contentm_t{width:613px; padding-left:70px; height:40px; line-height:40px; font-size:14px;  background:url(../images/m_title_1.jpg) no-repeat 10px;}
+.contentm_c{ width:100%; height:64px; overflow:hidden;}
+.contentm_c_i{ padding:7px 10px;}
+.contentm_c_m{ width:470px; overflow:hidden;}
+.contentm_c_m li{ float:left;width:100%;}
+.contentm_c_m li b{ font-size:16px; line-height:24px;}
+.contentm_c_m li.hs_1{ color:#999;}
+.contentm_c_b{ width:143px; overflow:hidden;}
+.contentm_c_b img{ float:left; margin: 9px 11px 0 0;}
+
+/*交互数据*/
+.contentj{width:649px; margin:10px 0; padding:5px 17px 10px 17px;  border:1px solid #ddd; background:url(../images/m_title_2.jpg) repeat-x; overflow:hidden;}
+.contentj_box{ width:175px; margin-right:10px; overflow:hidden;}
+.contentj_box li{ float:left; width:100%; line-height:24px;}
+.txtcolro1 {color: #be0000;}
+.contentj_b{ width:93px;}
+.contentj_b input{ margin-top:20px; width:93px; height:30px; cursor:pointer}
+
+/*积分信息*/
+.contentf{width:649px; margin:10px 0; padding:5px 17px 10px 17px;  border:1px solid #ddd; background:url(../images/m_title_2.jpg) repeat-x; overflow:hidden;}
+.contentf_c{ width:100%; line-height:24px;}
+
+/*账户安全*/
+.contenta{width:649px; margin:10px 0; padding:5px 17px 10px 17px;  border:1px solid #ddd; background:url(../images/m_title_2.jpg) repeat-x; overflow:hidden;}
+.contenta_c{ width:100%; line-height:24px;}
+
+/*模块切换区*/
+.smartbar{width:245px; overflow:hidden;}
+
+.smartbar_box{ width:245px; margin-bottom:10px; overflow:hidden;}
+.smartbar_box_t{ float:left; height:35px; width:243px; border:1px solid #ddd;}
+.smartbar_box_t_c{ float:left; height:33px; padding-left:15px; width:226px; border:1px solid #fff; background:url(../images/line.png) repeat-x; font-size:14px; font-weight:bold; line-height:33px;}
+.smartbar_box_c{float:left; padding:10px; width:223px; border-bottom:1px solid #ddd; border-left:1px solid #ddd; border-right:1px solid #ddd;;}
+.smartbar_box_c ul li{ padding-left:20px; height:30px; line-height:30px; border-bottom:1px dotted #ddd; }
+.smartbar_box_c ul li img{ vertical-align:middle; padding: 0 10px 7px 0;}
+.smartbar_box_c ul li.select a{ font-weight:bold; color:#be0000;}
+
+
+/*我的收藏*/
+.sc_box{width:683px; border:1px solid #ddd; margin-bottom:10px;}
+.sc_box td{ line-height:30px; text-align:center;}
+
+/*基本资料*/
+.jb{width:683px; border:1px solid #ddd;}
+.jb td{ line-height:30px;}
+.jb form{padding-top:10px; border-top:1px dotted #ddd;}
+.jb label{ padding-right:10px;}
+.button_1{ width:60px; height:24px;}
+
+/*发布票据信息*/
+.fb{width:683px; border:1px solid #ddd; overflow:hidden;}
+.fb_t a{ float:left; padding-left:17px; font-size:14px; line-height:40px;}
+.fb_t a.select{ font-weight:bold; color:#be0000;}
+.fb form{padding-top:10px; border-top:1px dotted #ddd;}
+span.color_1{ padding-left:10px; color:#999;}
+.fb td{ line-height:30px;}
+
+/*底部*/
+.footer{margin:0 auto; width:950px; overflow:hidden;border-top:1px solid #ddd; padding-top:10px;}
+.footer p{ width:100%; text-align:center; height:24px; line-height:24px; overflow:hidden;}
+.footer p a{ margin:0 5px;}
+.footer span{ text-align:center;}
+

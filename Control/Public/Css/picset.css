@@ -1,0 +1,99 @@
+body,html{
+	padding: 0;
+	margin: 0;
+}
+.picset{
+	font-size: 12px;/*图片页面全局字体*/
+}
+
+/*面包屑导航样式*/
+.breadrow{
+	text-align: right;
+	height: 25px;
+	line-height: 25px;
+	padding-right: 10px;
+	border-bottom: 1px solid #ccc;/*区块边框色*/
+}
+.breadrow a{
+	text-decoration: none;
+	color: #333;
+	font-weight: bold;
+}
+.breadrow a:hover{
+	color: #0A8AED;/*焦点色*/
+}
+
+/*图片区*/
+.picset{
+
+}
+.picandfolderrow{
+	overflow: auto;
+	zoom: 1;
+}
+.picandfolderrow .item{
+	margin: 10px;
+	float: left;
+}
+.picandfolderrow .item  a{
+	color: #222;
+	text-decoration: none;
+}
+.picandfolderrow .item  a:hover{
+	color: #0A8AED;/*焦点色*/
+	text-decoration: none;
+}
+.picandfolderrow .item  a .pic{
+	height: 120px;
+	width: 120px;
+	border: 1px solid #eee;
+	overflow: hidden;
+}
+.picandfolderrow .item  a .pic img{
+	width: 100%;
+	height: 100%;
+}
+.picandfolderrow .item  a:hover .pic{
+	border-color: #0A8AED;/*焦点色*/
+}
+.folderrow .item  a .pic{
+	height: 60px;
+	width: 60px;
+	border: 1px solid #eee;
+	background: url(folder.png) no-repeat;
+	overflow: hidden;
+}
+.picandfolderrow .item  a .pictext{
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+
+}
+
+
+/*分页区域*/
+.pagechangrow{
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	padding-right: 10px;
+	border-top: 1px solid #ccc;/*区块边框色*/
+}
+.pagechangrow a{
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #bbb;
+	padding: 3px 3px;
+}
+.pagechangrow a:hover{
+	color: #0A8AED;/*焦点色*/
+	border-color: #0A8AED;/*焦点色*/
+}
+.pagechangrow span{
+	text-decoration: none;
+	color: #555;
+	cursor: default;
+	background-color: #eee;
+	border: 1px solid #bbb;
+	padding: 3px 3px;
+}

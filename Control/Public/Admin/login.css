@@ -1,0 +1,113 @@
+.fll{float: left;}
+		.flr{float: right;}
+		body{
+			background:url(images/bg_body.png) repeat;
+		}
+		.login{
+			position: absolute;
+			top: 40%;
+			left: 50%;
+			margin-top:  -150px;
+			margin-left: -225px;
+			width: 450px;
+			overflow: hidden;
+			background: #fff;
+		}
+		.logintitle{
+			font-family: 'Segoe UI', 'Microsoft Yahei', Arial, Simsun, sans-serif, "宋体";
+			height: 40px;
+			color:#FFF;
+			padding:10px 0 0 20px;
+			border: 1px solid #2f8ed5;
+			border-bottom: 0; 
+			border-radius: 5px 5px 0 0;
+			background: #2f8ed5;
+			box-shadow: inset 0 25px 25px rgba(255,255,255,0.07);
+			user-select: none; -moz-user-select: none;  -webkit-user-select: none;  -ms-user-select: none;
+			cursor: default;
+		}
+		.loginbox{
+			font-family: 'Segoe UI', 'Microsoft Yahei', Arial, Simsun, sans-serif, "宋体";
+			font-size: 14px;
+			padding:20px 25px 10px 25px;
+			border-radius:  0 0 5px 5px;
+			border: 1px solid #ddd;
+			border-top: 0; 
+		}
+		.loginboxtag{
+			height: 25px;
+			line-height: 25px;
+			padding-left: 2px;
+			color: #555;
+			cursor: default;
+			user-select: none; -moz-user-select: none;  -webkit-user-select: none;  -ms-user-select: none;
+		}
+		.loginboxinput{
+			height: 40px;
+		}
+		input[type="text"], input[type="password"], textarea{ 
+			padding-left: 27px;
+			color: #555;
+			outline: 0px;
+			height: 30px;
+			width: 200px;
+			border: 1px solid #ddd;
+			border-radius: 3px;
+			transition: all .2s;-webkit-transition: all .2s;-moz-transition: all @time;
+		}
+
+		input[type="text"] {
+			background: url('images/iconman.png') no-repeat;
+		}
+		input[type="password"] {
+			background: url('images/iconlock.png') no-repeat;
+		}
+		input[type="text"]:focus, input[type="password"]:focus, textarea:focus { 
+			border: 1px solid rgba(40,140,210,0.5);
+			box-shadow: 0 0 3px rgba(40,140,210,0.5);
+			background-color: #fafafa;
+		}
+
+		.loginboxbtn{
+			overflow: auto;zoom: 1;
+			height: 40px;
+			padding-top: 0px;
+
+		}
+		input[type="checkbox"]{
+			margin: 0;
+			margin-right: 10px;
+		}
+		.loginboxbtn .rem{
+			font-size: 12px;
+			padding-top: 15px;
+			user-select: none; -moz-user-select: none;  -webkit-user-select: none;  -ms-user-select: none;
+		}
+		.loginboxbtn .rem span{
+			/*display: inline-block;
+			margin-top: -5px;*/
+			color: #555;
+			position: relative;
+			top: -2px;
+			cursor: default;
+		}
+		.btn{
+			display: inline-block;
+			width: 80px;
+			height: 30px;
+			line-height: 30px;
+			text-align: center;
+			background: #2f8ed5;
+			color: #fff;
+			border-radius: 5px;
+			box-shadow: 0 0 1px rgba(0,0,0,0.3);
+			cursor: pointer;
+			transition: all .2s;-webkit-transition: all .2s;-moz-transition: all @time;
+			user-select: none; -moz-user-select: none;  -webkit-user-select: none;  -ms-user-select: none;
+		}
+		.btn:hover{
+			background: #2786cc;
+		}
+		.btn:active{
+			background: #176cab;
+		}

@@ -1,0 +1,19 @@
+*{ margin:0; padding:0;}
+.ws-calendar{width:367px; border:1px solid #ddd;  box-shadow:0px 0px 2px #ddd; position:absolute; background:#fff;}
+.ws-calendar .clenTit { position:relative; height:30px; line-height:30px; text-align:center;}
+.ws-calendar .clenTit .ym{ cursor:pointer; color:#000;}
+.ws-calendar .clenTit .prev,.ws-calendar .clenTit .next{ position:absolute; top:0; text-decoration:none; font-weight:bold; color:#be0000; }
+.ws-calendar .clenTit .prev{left:8px;}
+.ws-calendar .clenTit .next{ right:8px;}
+.ws-calendar .clenHead span.week{ color:#fff; font-size:12px;}
+.ws-calendar .clenHead span.week,.ws-calendar .clenBody div.d{ float:left;  margin-right:2px;text-align:center; background:#be0000; margin-bottom:2px; overflow:hidden; font-size:12px;}
+.ws-calendar .clenBody div.d{  height:30px; background:#f2f2f2;}
+.ws-calendar .clenBody div.has{ cursor:pointer; color:#000;}
+.ws-calendar .clenBody div.cur{ background:#FC0; color:#000;}
+.ws-calendar .clenHead ,.ws-calendar .clenBody{ overflow:hidden; _zoom:1; }
+
+.ws-calendar .layer { background:#fff; font-size:14px; font-family:Arial; width:100%; height:100%;color:#000; position:absolute; zIndex:100; top:0; left:0; overflow-y:auto; }
+.ws-calendar .layer .yrs,.ws-calendar .layer .switch{ overflow:hidden; _zoom:1;}
+.ws-calendar .layer span{ float:left; width:46px; height:20px; line-height:20px; text-align:center; display:inline; margin:4px 2px 0; background:#eee; cursor:pointer;}
+.ws-calendar .layer .switch .swL{ float:left;}
+.ws-calendar .layer .switch .swR{ float:right;}
