@@ -1,0 +1,59 @@
+
+/*变量*/
+	/*基调色彩*/
+	@maincolor:#005A98;
+	/*@maincolor:#E77F54;*/
+	/*@maincolor:#609A2F;*/
+	
+	@focuscolor:#333;
+	/*宽高布局*/
+	@theboxwidth: 980px;
+	 @theboxmargin: 15px;
+	/*字体*/
+	@msyh: 'Segoe UI', 'Microsoft Yahei', Arial, Simsun, sans-serif;
+	@times: "Times New Roman","Times";
+	@mssong: Simsun, sans-serif;
+
+/*直引样式*/
+	.hide	{display: none;}
+	.fll	{float: left;}
+	.flr	{float: right;}
+	.half	{width: 50%;}
+
+	.tar	{text-align: right;}
+	.tac	{text-align: center;}
+	.ofa	{overflow: auto;zoom: 1;}
+	.ofh	{overflow: hidden;}
+	.ofhy	{overflow-y: hidden;}
+	.ofhx	{overflow-x: hidden;}
+	.ma		{margin: 0 auto;}
+	.br		{border-radius: 3px;}
+	.usn	{user-select: none; -moz-user-select: none;  -webkit-user-select: none;  -ms-user-select: none;}
+	.db		{display: block;}
+	.cp		{cursor: pointer;}
+
+	.oc(@oc:0)			{opacity: @oc;}
+	.trss(@time: .2s)	{transition: all @time;-webkit-transition: all @time;-moz-transition: all @time;}
+	.trssn(@all:all,@time: .2s)	{transition: @all @time;-webkit-transition: @all @time;-moz-transition: @all @time;}
+	.scal(@a)			{-webkit-transform: scale(@a);-moz-transform: scale(@a);-o-transform: scale(@a);-ms-transform: scale(@a);transform: scale(@a);}
+	.w (@width)			{width: @width;}
+	.h (@height)		{height: @height;}
+	.bg (@bg)			{background: @bg;}
+	.c(@c)				{color: @c;}
+	.mg(@m1:5px)		{margin: @m1;}
+	.pd(@p1:5px)		{padding: @p1;}
+	.hl(@height)		{height: @height; line-height: @height;}
+	.hlc(@height,@width)		{height: @height;width: @width; line-height: @height; text-align: center;}
+	.rb(@a:0.1)			{background: rgba(0,0,0,@a);}
+	.rub(@a:0.1)			{background: rgba(0,0,0,@a);}
+
+	
+
+	/*直引样式*/
+	.but(@height:30px,@width:80px,@background:@focus,@radius:3px,@fontsize:14px)		{display: block; height: @height; line-height: @height;width: @width;background: @background;border-radius: @radius;font-size: @fontsize;box-shadow:0 1px 1px rgba(0,0,0,0.5); text-align: center;cursor: pointer;.usn; }
+	.buth{background:#333;}
+	.tag(@height:30px,@width:80px,@background:@focus,@radius:3px,@fontsize:14px,@margin: 0)		{display: block; height: @height; line-height: @height;width: @width;background: @background;border-radius: @radius @radius 0 0;font-size: @fontsize;margin-left: 5px; text-align: center;cursor: pointer;.usn;.fll;}
+	
+	/*mixed*/
+
+	/*mixed*/
