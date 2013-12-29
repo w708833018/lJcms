@@ -1,0 +1,13 @@
+<?php
+//读取
+//error_reporting(E_ERROR);
+define("RUNTIME_PATH","./Control/Cache/");
+define("APP_NAME","LongJiCms");
+define("APP_PATH","./Control/Longji/");
+define("UPLOAD_PATH","./Attache/");
+define("APP_DEBUG",true);
+define("MY_THEME_PATH",APP_PATH."Tpl/Home/");
+define("ADMIN_THEME_PATH",APP_PATH."Tpl/Admin/");
+define("TEMPLATE_PATH",APP_PATH."Tpl/Home/");
+require("Control/Core/ThinkPHP.php");
+?>
