@@ -1,4 +1,5 @@
 <?php
+//test
 class EmptyAction extends AdminAction{
 	
 	function _initialize(){

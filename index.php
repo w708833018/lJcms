@@ -9,5 +9,6 @@ define("APP_DEBUG",true);
 define("MY_THEME_PATH",APP_PATH."Tpl/Home/");
 define("ADMIN_THEME_PATH",APP_PATH."Tpl/Admin/");
 define("TEMPLATE_PATH",APP_PATH."Tpl/Home/");
+//test
 require("Control/Core/ThinkPHP.php");
 ?>
