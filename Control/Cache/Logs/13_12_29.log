@@ -80,3 +80,768 @@ INFO: [ view_end ] --START--
 INFO: ShowPageTrace Behavior ::run [ RunTime:0.000733s ]
 INFO: [ view_end ] --END-- [ RunTime:0.000830s ]
 
+[ 2013-12-29T20:15:58+08:00 ] 127.0.0.1 /index.php?m=About&a=index&id=1
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000807s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001517s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002519s ]
+NOTIC: [8] Undefined index: child E:\fly\Control\Longji\Lib\Action\HomeAction.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `gz_about` [ RunTime:0.003140s ]
+ERR: 1146:Table 'fly.gz_about' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_about`
+SQL: SELECT COUNT(*) AS tp_count FROM `gz_about` WHERE (  status>=1  and catid=1 ) LIMIT 1   [ RunTime:0.000328s ]
+ERR: 1146:Table 'fly.gz_about' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gz_about` WHERE (  status>=1  and catid=1 ) LIMIT 1  
+SQL: SELECT * FROM `gz_about` WHERE (  status>=1  and catid=1 ) ORDER BY listorder asc,id desc LIMIT 0,6   [ RunTime:0.000345s ]
+ERR: 1146:Table 'fly.gz_about' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `gz_about` WHERE (  status>=1  and catid=1 ) ORDER BY listorder asc,id desc LIMIT 0,6  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 474 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 477 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 528 行.
+NOTIC: [8] Undefined index: posid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 541 行.
+NOTIC: [8] Undefined index: thumb E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 554 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 474 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 477 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 528 行.
+NOTIC: [8] Undefined index: posid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 541 行.
+NOTIC: [8] Undefined index: thumb E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 554 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 358 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 360 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 363 行.
+SQL: SHOW COLUMNS FROM `gz_block` [ RunTime:0.004491s ]
+SQL: SELECT * FROM `gz_block` WHERE (  1  and lang=1 and pos='phone and email'  ) LIMIT 1   [ RunTime:0.000290s ]
+SQL: SELECT `title`,`content` FROM `gz_about` WHERE (  1  and lang=1 AND status=1  AND catid=1 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000399s ]
+ERR: 1146:Table 'fly.gz_about' doesn't exist
+ [ SQL语句 ] : SELECT `title`,`content` FROM `gz_about` WHERE (  1  and lang=1 AND status=1  AND catid=1 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SELECT `id`,`catid`,`url`,`title`,`keyword`,`description`,`image`,`createtime` FROM `gz_about` WHERE (  1  and lang=1 AND status=1  AND catid=1 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000241s ]
+ERR: 1146:Table 'fly.gz_about' doesn't exist
+ [ SQL语句 ] : SELECT `id`,`catid`,`url`,`title`,`keyword`,`description`,`image`,`createtime` FROM `gz_about` WHERE (  1  and lang=1 AND status=1  AND catid=1 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SHOW COLUMNS FROM `gz_link` [ RunTime:0.004340s ]
+SQL: SELECT * FROM `gz_link` WHERE (  status = 1  and lang=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000358s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027724s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027830s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000814s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000638s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000536s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002978s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000769s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000863s ]
+
+[ 2013-12-29T20:16:00+08:00 ] 127.0.0.1 /index.php?m=Blog&a=index&id=2
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000653s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001543s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002392s ]
+NOTIC: [8] Undefined index: child E:\fly\Control\Longji\Lib\Action\HomeAction.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `gz_blog` [ RunTime:0.003502s ]
+ERR: 1146:Table 'fly.gz_blog' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_blog`
+SQL: SELECT COUNT(*) AS tp_count FROM `gz_blog` WHERE (  status>=1  and catid=2 ) LIMIT 1   [ RunTime:0.000308s ]
+ERR: 1146:Table 'fly.gz_blog' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gz_blog` WHERE (  status>=1  and catid=2 ) LIMIT 1  
+SQL: SELECT * FROM `gz_blog` WHERE (  status>=1  and catid=2 ) ORDER BY listorder asc,id desc LIMIT 0,6   [ RunTime:0.000296s ]
+ERR: 1146:Table 'fly.gz_blog' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `gz_blog` WHERE (  status>=1  and catid=2 ) ORDER BY listorder asc,id desc LIMIT 0,6  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 474 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 477 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 528 行.
+NOTIC: [8] Undefined index: posid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 541 行.
+NOTIC: [8] Undefined index: thumb E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 554 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 358 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 360 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 363 行.
+SQL: SHOW COLUMNS FROM `gz_block` [ RunTime:0.003462s ]
+SQL: SELECT * FROM `gz_block` WHERE (  1  and lang=1 and pos='phone and email'  ) LIMIT 1   [ RunTime:0.000332s ]
+SQL: SELECT `createtime`,`title`,`content`,`url`,`image` FROM `gz_blog` WHERE (  1  and lang=1 AND status=1  AND catid=2 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000418s ]
+ERR: 1146:Table 'fly.gz_blog' doesn't exist
+ [ SQL语句 ] : SELECT `createtime`,`title`,`content`,`url`,`image` FROM `gz_blog` WHERE (  1  and lang=1 AND status=1  AND catid=2 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SHOW COLUMNS FROM `gz_link` [ RunTime:0.003457s ]
+SQL: SELECT * FROM `gz_link` WHERE (  status = 1  and lang=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000315s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024070s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024175s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000597s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000463s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000459s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000645s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002446s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000679s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2013-12-29T20:16:01+08:00 ] 127.0.0.1 /index.php?m=Page&a=index&id=3
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000611s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001028s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001817s ]
+SQL: SHOW COLUMNS FROM `gz_page` [ RunTime:0.053836s ]
+SQL: SELECT * FROM `gz_page` WHERE ( id=3 ) LIMIT 1   [ RunTime:0.000352s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 474 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 477 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 528 行.
+NOTIC: [8] Undefined index: posid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 541 行.
+NOTIC: [8] Undefined index: thumb E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 554 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 358 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 360 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 363 行.
+SQL: SHOW COLUMNS FROM `gz_block` [ RunTime:0.004042s ]
+SQL: SELECT * FROM `gz_block` WHERE (  1  and lang=1 and pos='phone and email'  ) LIMIT 1   [ RunTime:0.000353s ]
+SQL: SELECT `content` FROM `gz_page` WHERE (  1  and lang=1 AND status=1  AND catid=3 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000360s ]
+SQL: SHOW COLUMNS FROM `gz_link` [ RunTime:0.003719s ]
+SQL: SELECT * FROM `gz_link` WHERE (  status = 1  and lang=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000332s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.024502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024612s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000609s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000481s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000462s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002627s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000760s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000855s ]
+
+[ 2013-12-29T20:16:03+08:00 ] 127.0.0.1 /index.php?m=Product&a=index&id=4
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002177s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: posid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 541 行.
+NOTIC: [8] Undefined index: thumb E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 554 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 358 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 360 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 363 行.
+SQL: SHOW COLUMNS FROM `gz_block` [ RunTime:0.003487s ]
+SQL: SELECT * FROM `gz_block` WHERE (  1  and lang=1 and pos='phone and email'  ) LIMIT 1   [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `gz_product` [ RunTime:0.003167s ]
+ERR: 1146:Table 'fly.gz_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_product`
+SQL: SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =5 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000301s ]
+ERR: 1146:Table 'fly.gz_product' doesn't exist
+ [ SQL语句 ] : SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =5 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =6 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000258s ]
+ERR: 1146:Table 'fly.gz_product' doesn't exist
+ [ SQL语句 ] : SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =6 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =7 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000253s ]
+ERR: 1146:Table 'fly.gz_product' doesn't exist
+ [ SQL语句 ] : SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =7 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =8 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000304s ]
+ERR: 1146:Table 'fly.gz_product' doesn't exist
+ [ SQL语句 ] : SELECT `image`,`url`,`title`,`content` FROM `gz_product` WHERE (  1  and lang=1 AND status=1  AND catid =8 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SHOW COLUMNS FROM `gz_link` [ RunTime:0.004040s ]
+SQL: SELECT * FROM `gz_link` WHERE (  status = 1  and lang=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000314s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037507s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037625s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000615s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000462s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000436s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002439s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000699s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000795s ]
+
+[ 2013-12-29T20:16:06+08:00 ] 127.0.0.1 /index.php?m=Contact&a=index&id=9
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000701s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001042s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001931s ]
+NOTIC: [8] Undefined index: child E:\fly\Control\Longji\Lib\Action\HomeAction.class.php 第 157 行.
+SQL: SHOW COLUMNS FROM `gz_contact` [ RunTime:0.003323s ]
+ERR: 1146:Table 'fly.gz_contact' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_contact`
+SQL: SELECT COUNT(*) AS tp_count FROM `gz_contact` WHERE (  status>=1  and catid=9 ) LIMIT 1   [ RunTime:0.000321s ]
+ERR: 1146:Table 'fly.gz_contact' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gz_contact` WHERE (  status>=1  and catid=9 ) LIMIT 1  
+SQL: SELECT * FROM `gz_contact` WHERE (  status>=1  and catid=9 ) ORDER BY listorder asc,id desc LIMIT 0,6   [ RunTime:0.000297s ]
+ERR: 1146:Table 'fly.gz_contact' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `gz_contact` WHERE (  status>=1  and catid=9 ) ORDER BY listorder asc,id desc LIMIT 0,6  
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 474 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 477 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 528 行.
+NOTIC: [8] Undefined index: posid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 541 行.
+NOTIC: [8] Undefined index: thumb E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 554 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 474 行.
+NOTIC: [8] Undefined index: name E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 477 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 528 行.
+NOTIC: [8] Undefined index: posid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 541 行.
+NOTIC: [8] Undefined index: thumb E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 554 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 358 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 360 行.
+NOTIC: [8] Undefined index: typeid E:\fly\Control\Core\Extend\Driver\TagLib\TagLibLJ.class.php 第 363 行.
+SQL: SHOW COLUMNS FROM `gz_block` [ RunTime:0.003415s ]
+SQL: SELECT * FROM `gz_block` WHERE (  1  and lang=1 and pos='phone and email'  ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `gz_map` [ RunTime:0.003092s ]
+ERR: 1146:Table 'fly.gz_map' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_map`
+SQL: SELECT `title`,`content`,`image` FROM `gz_map` WHERE (  1  and lang=1 AND status=1  AND catid=10 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000299s ]
+ERR: 1146:Table 'fly.gz_map' doesn't exist
+ [ SQL语句 ] : SELECT `title`,`content`,`image` FROM `gz_map` WHERE (  1  and lang=1 AND status=1  AND catid=10 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SHOW COLUMNS FROM `gz_people` [ RunTime:0.002855s ]
+ERR: 1146:Table 'fly.gz_people' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_people`
+SQL: SELECT `content` FROM `gz_people` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY listorder asc,id desc LIMIT 10   [ RunTime:0.000277s ]
+ERR: 1146:Table 'fly.gz_people' doesn't exist
+ [ SQL语句 ] : SELECT `content` FROM `gz_people` WHERE (  1  and lang=1 AND status=1  AND catid=12 ) ORDER BY listorder asc,id desc LIMIT 10  
+SQL: SHOW COLUMNS FROM `gz_link` [ RunTime:0.003494s ]
+SQL: SELECT * FROM `gz_link` WHERE (  status = 1  and lang=1 ) ORDER BY id desc LIMIT 10   [ RunTime:0.000314s ]
+INFO: ParseTemplate Behavior ::run [ RunTime:0.032296s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032404s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000624s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000458s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000647s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002461s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2013-12-29T20:16:23+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Login
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000651s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001806s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009781s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000492s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000471s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000341s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002115s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000641s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000731s ]
+
+[ 2013-12-29T20:16:30+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Login&a=dologin
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000889s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001665s ]
+SQL: SHOW COLUMNS FROM `gz_account` [ RunTime:0.004877s ]
+SQL: SELECT * FROM `gz_account` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.000341s ]
+SQL: UPDATE `gz_account` SET `logintimes`=logintimes+1 WHERE ( id=1 ) [ RunTime:0.000421s ]
+SQL: UPDATE `gz_account` SET `lastlogin`=1388319390,`lastip`=2130706433 WHERE ( id=1 ) [ RunTime:0.000227s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009637s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000449s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000475s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000689s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002486s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000735s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000832s ]
+
+[ 2013-12-29T20:16:31+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Index&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000581s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001679s ]
+SQL: SHOW COLUMNS FROM `gz_account` [ RunTime:0.003695s ]
+SQL: SELECT `group` FROM `gz_account` WHERE ( id=1 ) LIMIT 1   [ RunTime:0.000293s ]
+NOTIC: [8] Use of undefined constant name - assumed 'name' E:\fly\Control\Longji\Lib\Action\Admin\IndexAction.class.php 第 14 行.
+NOTIC: [8] Undefined index: 1 E:\fly\Control\Longji\Lib\Action\Admin\IndexAction.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 33 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 33 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 33 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 33 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 33 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 39 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 35 行.
+NOTIC: [8] Undefined index: remark E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 37 行.
+NOTIC: [8] Use of undefined constant status - assumed 'status' E:\fly\Control\Cache\Cache\Admin\d08f2c5fa2206565baf0afa2f0306c0b.php 第 38 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025269s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025378s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000549s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000573s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000649s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002698s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000767s ]
+
+[ 2013-12-29T20:16:31+08:00 ] 127.0.0.1 /index.php?g=Admin&m=System&a=config
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001124s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003150s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id E:\fly\Control\Cache\Cache\Admin\f7e01d8e52fc442343ce8902d78c6c62.php 第 26 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014906s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015076s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000463s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000400s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000401s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000592s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002121s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2013-12-29T20:16:33+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Category&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000623s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001051s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: SHOW COLUMNS FROM `gz_category` [ RunTime:0.004741s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 43 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 43 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 43 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 43 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 43 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 43 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 52 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 52 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 52 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 47 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 50 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 52 行.
+NOTIC: [8] Use of undefined constant moduleid - assumed 'moduleid' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 38 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 41 行.
+NOTIC: [8] Undefined index: child E:\fly\Control\Cache\Cache\Admin\35f49494806e75a22f5953a8475ac8e5.php 第 43 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.030043s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030165s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000692s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000420s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000414s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000677s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002469s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000730s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000827s ]
+
+[ 2013-12-29T20:16:38+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Category&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000873s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001119s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `gz_category` [ RunTime:0.004118s ]
+NOTIC: [8] Use of undefined constant template - assumed 'template' E:\fly\Control\Longji\Lib\Action\Admin\CategoryAction.class.php 第 194 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 32 行.
+NOTIC: [8] Undefined variable: catname E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 47 行.
+NOTIC: [8] Undefined variable: catdir E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 52 行.
+NOTIC: [8] Undefined variable: image E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 64 行.
+NOTIC: [8] Undefined variable: title E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 73 行.
+NOTIC: [8] Undefined variable: keywords E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 80 行.
+NOTIC: [8] Undefined variable: description E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 89 行.
+NOTIC: [8] Undefined variable: pagesize E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 98 行.
+NOTIC: [8] Undefined index: template_list E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 168 行.
+NOTIC: [8] Undefined index: template_show E:\fly\Control\Cache\Cache\Admin\16fa21443eec6e6d01de8f8bd849b0fe.php 第 169 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000577s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000403s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000602s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002261s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000654s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000757s ]
+
+[ 2013-12-29T20:16:50+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Database&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000641s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001844s ]
+SQL: SHOW TABLE STATUS LIKE 'gz_%' [ RunTime:0.009114s ]
+NOTIC: [8] Undefined variable: total E:\fly\Control\Longji\Lib\Action\Admin\DatabaseAction.class.php 第 20 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: pages E:\fly\Control\Cache\Cache\Admin\af3c15f79dc537182afc36e4e55e3673.php 第 104 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026660s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026833s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000739s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000498s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000509s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002756s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000766s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2013-12-29T20:16:51+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Slide&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000588s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000904s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001672s ]
+SQL: SHOW COLUMNS FROM `gz_slide` [ RunTime:0.003552s ]
+SQL: SELECT * FROM `gz_slide` ORDER BY id desc  [ RunTime:0.000278s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012172s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012293s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000500s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000441s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000482s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000648s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002328s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000708s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000804s ]
+
+[ 2013-12-29T20:16:52+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Block&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001744s ]
+SQL: SHOW COLUMNS FROM `gz_block` [ RunTime:0.003307s ]
+SQL: SELECT * FROM `gz_block` WHERE ( `lang` = 1 ) ORDER BY id desc  [ RunTime:0.000244s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011846s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012025s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000441s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000387s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000390s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000605s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000684s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000781s ]
+
+[ 2013-12-29T20:16:52+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Link&a=index
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000604s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001018s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001801s ]
+SQL: SHOW COLUMNS FROM `gz_link` [ RunTime:0.003653s ]
+SQL: SELECT * FROM `gz_link` WHERE ( `lang` = '1' ) ORDER BY id desc  [ RunTime:0.000319s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012389s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012511s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000467s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000419s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000445s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000629s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002212s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000711s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2013-12-29T20:16:53+08:00 ] 127.0.0.1 /index.php?g=Admin&m=Block&a=add
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000594s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000968s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001740s ]
+SQL: SHOW COLUMNS FROM `gz_block` [ RunTime:0.003453s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: id E:\fly\Control\Cache\Cache\Admin\41b900eb65fe98513612945f96a1c230.php 第 22 行.
+NOTIC: [8] Undefined variable: name E:\fly\Control\Cache\Cache\Admin\41b900eb65fe98513612945f96a1c230.php 第 28 行.
+NOTIC: [8] Undefined variable: pos E:\fly\Control\Cache\Cache\Admin\41b900eb65fe98513612945f96a1c230.php 第 35 行.
+NOTIC: [8] Undefined variable: content E:\fly\Control\Cache\Cache\Admin\41b900eb65fe98513612945f96a1c230.php 第 41 行.
+NOTIC: [8] Undefined variable: id E:\fly\Control\Cache\Cache\Admin\41b900eb65fe98513612945f96a1c230.php 第 50 行.
+NOTIC: [8] Undefined variable: mid E:\fly\Control\Cache\Cache\Admin\41b900eb65fe98513612945f96a1c230.php 第 54 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011050s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011172s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000461s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000418s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000415s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000610s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002168s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000683s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000778s ]
+
+[ 2013-12-29T20:16:56+08:00 ] 127.0.0.1 /index.php?g=Admin&m=video&a=index&moduleid=18
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000638s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001919s ]
+SQL: SHOW COLUMNS FROM `gz_module` [ RunTime:0.003406s ]
+SQL: SELECT `id`,`title`,`lgtypes` FROM `gz_module` WHERE ( name='video' ) LIMIT 1   [ RunTime:0.000281s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `gz_video` [ RunTime:0.003016s ]
+ERR: 1146:Table 'fly.gz_video' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_video`
+SQL: SELECT COUNT(*) AS tp_count FROM `gz_video` WHERE ( `lang` = '1' ) LIMIT 1   [ RunTime:0.000313s ]
+ERR: 1146:Table 'fly.gz_video' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gz_video` WHERE ( `lang` = '1' ) LIMIT 1  
+SQL: SELECT * FROM `gz_video` WHERE ( `lang` = '1' ) ORDER BY `id` desc LIMIT 0,12   [ RunTime:0.000293s ]
+ERR: 1146:Table 'fly.gz_video' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `gz_video` WHERE ( `lang` = '1' ) ORDER BY `id` desc LIMIT 0,12  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013485s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000431s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000596s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002206s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000700s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000796s ]
+
+[ 2013-12-29T20:16:56+08:00 ] 127.0.0.1 /index.php?g=Admin&m=video&a=add&moduleid=18
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000587s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000920s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001727s ]
+SQL: SHOW COLUMNS FROM `gz_module` [ RunTime:0.003871s ]
+SQL: SELECT `id`,`title`,`lgtypes` FROM `gz_module` WHERE ( name='video' ) LIMIT 1   [ RunTime:0.000282s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 48 行.
+NOTIC: [8] Undefined variable: keyword E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 55 行.
+NOTIC: [8] Undefined variable: description E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 64 行.
+NOTIC: [8] Undefined variable: image E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 77 行.
+NOTIC: [8] Undefined variable: id E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 96 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014750s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000519s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000437s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000423s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000759s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002426s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001156s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001345s ]
+
+[ 2013-12-29T20:16:59+08:00 ] 127.0.0.1 /index.php?g=Admin&m=blog&a=index&moduleid=11
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000626s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+SQL: SHOW COLUMNS FROM `gz_module` [ RunTime:0.003397s ]
+SQL: SELECT `id`,`title`,`lgtypes` FROM `gz_module` WHERE ( name='blog' ) LIMIT 1   [ RunTime:0.000252s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `gz_blog` [ RunTime:0.002932s ]
+ERR: 1146:Table 'fly.gz_blog' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `gz_blog`
+SQL: SELECT COUNT(*) AS tp_count FROM `gz_blog` WHERE ( `lang` = '1' ) LIMIT 1   [ RunTime:0.000253s ]
+ERR: 1146:Table 'fly.gz_blog' doesn't exist
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `gz_blog` WHERE ( `lang` = '1' ) LIMIT 1  
+SQL: SELECT * FROM `gz_blog` WHERE ( `lang` = '1' ) ORDER BY `id` desc LIMIT 0,12   [ RunTime:0.000251s ]
+ERR: 1146:Table 'fly.gz_blog' doesn't exist
+ [ SQL语句 ] : SELECT * FROM `gz_blog` WHERE ( `lang` = '1' ) ORDER BY `id` desc LIMIT 0,12  
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013068s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013186s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000458s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000390s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000389s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000597s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002092s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000643s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000733s ]
+
+[ 2013-12-29T20:17:00+08:00 ] 127.0.0.1 /index.php?g=Admin&m=blog&a=add&moduleid=11
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000595s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000981s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+SQL: SHOW COLUMNS FROM `gz_module` [ RunTime:0.003524s ]
+SQL: SELECT `id`,`title`,`lgtypes` FROM `gz_module` WHERE ( name='blog' ) LIMIT 1   [ RunTime:0.000319s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 48 行.
+NOTIC: [8] Undefined variable: keyword E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 55 行.
+NOTIC: [8] Undefined variable: description E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 64 行.
+NOTIC: [8] Undefined variable: image E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 77 行.
+NOTIC: [8] Undefined variable: id E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 96 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013592s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013704s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000527s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000449s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000449s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000639s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002322s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000715s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000810s ]
+
+[ 2013-12-29T20:17:01+08:00 ] 127.0.0.1 /index.php?g=Admin&m=about&a=add&moduleid=10
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000592s ]
+INFO: CheckLang Behavior ::run [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001669s ]
+SQL: SHOW COLUMNS FROM `gz_module` [ RunTime:0.003640s ]
+SQL: SELECT `id`,`title`,`lgtypes` FROM `gz_module` WHERE ( name='about' ) LIMIT 1   [ RunTime:0.000333s ]
+NOTIC: [8] Use of undefined constant id - assumed 'id' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 7 行.
+NOTIC: [8] Use of undefined constant title - assumed 'title' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 8 行.
+NOTIC: [8] Use of undefined constant lgtypes - assumed 'lgtypes' E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 9 行.
+NOTIC: [2] Invalid argument supplied for foreach() E:\fly\Control\Longji\Lib\Action\Admin\ContentAction.class.php 第 11 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: title E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 48 行.
+NOTIC: [8] Undefined variable: keyword E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 55 行.
+NOTIC: [8] Undefined variable: description E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 64 行.
+NOTIC: [8] Undefined variable: image E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 77 行.
+NOTIC: [8] Undefined variable: id E:\fly\Control\Cache\Cache\Admin\da13f070dba9d31b008e9ed2279c6d7b.php 第 96 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013754s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013867s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000523s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000406s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000402s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000653s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002252s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000712s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000807s ]
+
